@@ -17,12 +17,13 @@ h2{
     text-align: left;
 }
 
+
 p{
     width: 940px;
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
-    font-family: "Lato";
+    font-family: "Lato-Light";
     font-weight: 300;
     text-align: left;
 }
@@ -74,4 +75,44 @@ a.active:visited, a.active, .portfolio-navigation__navigation a:hover{
     list-style: none;
     margin-right: 20px;
     margin-bottom: 16px;
+}
+
+/*about us*/
+
+.about-us{
+    background-color: #f2f2f2;
+    padding-top: 60px;
+}
+.info-about-person{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato-Light";
+    font-weight: 300;
+}
+.people{
+    margin-top: 43px;
+    display:flex;
+    justify-content: left;
+}
+.people li{
+    list-style: none;
+}
+.people div{
+    display: inline-block;
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato-Light";
+    font-weight: 400;
+    text-align: left;
+}
+h3{
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
 }
