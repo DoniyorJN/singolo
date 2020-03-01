@@ -82,9 +82,11 @@ a.active:visited, a.active, .portfolio-navigation__navigation a:hover{
 .about-us{
     background-color: #f2f2f2;
     padding-top: 60px;
+    padding-bottom: 60px;
+    box-shadow: 6px 0px white;
 }
-.info-about-person{
-    margin-top: 20px;
+.info-about-people{
+    margin-top: 18px;
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -99,9 +101,13 @@ a.active:visited, a.active, .portfolio-navigation__navigation a:hover{
 .people li{
     list-style: none;
 }
-.people div{
+.people img{
+    margin-right: 20px;
+}
+.people .info-about-person{
+    margin-top: 14px;
     display: inline-block;
-    width: 300px;
+    width: 310px;
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
@@ -110,9 +116,22 @@ a.active:visited, a.active, .portfolio-navigation__navigation a:hover{
     text-align: left;
 }
 h3{
+    margin-top: 12px;
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
     font-family: "Lato";
     font-weight: 900;
+}
+
+.social-media__icon{
+    display: flex;
+    align-items: left;
+}
+.social-media__icon li{
+    margin-top: 18px;
+}
+.social-media__icon img{
+    margin-right: 5px;
+    padding: 0;
 }
