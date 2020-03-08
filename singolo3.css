@@ -1,5 +1,5 @@
 @import "lato.css";
-
+/*get-quotes*/
 *{
     margin: 0;
     padding: 0;
@@ -16,8 +16,7 @@
 .wrapper-quotes{
     padding-left: 40px;
     padding-top: 67px;
-    padding-bottom: 62px;
-    
+    padding-bottom: 68px;
 }
 
 .get-quotes h2{
@@ -114,3 +113,39 @@
     color: #f0d8d9;
 }
 
+/*footer*/
+
+.footer{
+    background-color: #2d303a;
+    color: #666d89;
+    font-family: 'Lato';
+
+}
+.wrapper-footer{
+    padding-bottom: 22px;
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer ul{
+    list-style: none;
+}
+.footer .copyright{
+    padding-top: 14px;
+    padding-left: 25px;
+}
+.footer .social-media__icon{
+    display: flex;
+    align-items: left;
+    padding-top: 3px;
+    padding-right: 52px;
+}
+.footer .social-media__icon li{
+    margin-top: 18px;
+}
+.footer .social-media__icon img{
+    margin-right: 5px;
+    padding: 0;
+}
