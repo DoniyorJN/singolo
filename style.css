@@ -16,12 +16,11 @@
 }
 
 /*header*/
-
-.header{
-    height: 95px;
-    color: white;
+.wrapper-header{
     background-color: #2d303a;
+    padding-bottom: 32px;
     box-shadow: 0px 6px #323746;
+    color: white;
 }
 
 .header .logo{ 
@@ -65,11 +64,14 @@
 }
 
 /*slider*/
-
-.slider{
-    height: 600px;
+.wrapper-slider{
     background-color: #f06c64;
     box-shadow: 0px 5px #ea676b;
+    padding-bottom: 108px;
+}
+.slider{
+    margin-top: 6px;
+    
 }
 
 .left-cursor{
@@ -96,9 +98,14 @@
 }
 
 /* services */
-.services{
+.wrapper-services{
+   
     padding-bottom: 83px;
     background-color: #f2f2f2;
+}
+
+.services{
+    margin-top:6px;
 }
 
 .services__block h2{
